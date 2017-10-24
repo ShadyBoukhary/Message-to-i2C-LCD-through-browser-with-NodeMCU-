@@ -9,8 +9,8 @@
 // Set the LCD address to 0x27 for a 16 chars and 2 line display
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
-const char* ssid = "Boukhary";                                  // Wifi SSID
-const char* password = "QWEasd123";                             // Wifi Password
+const char* ssid = "your ssid";                                 // Wifi SSID
+const char* password = "your password";                         // Wifi Password
 char * parameter;                                               // pointer to a char to be used in array notation to hold message
 byte button = 13;                                               // D7 Pin on NodeMCU connected to the button mapped to PIN 13 on Adruino IDE
 byte buzzer = 14;                                               // D5 Pin on NodeMCU connected to buzzer mapped to PIN 14
